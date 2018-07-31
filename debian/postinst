@@ -40,6 +40,7 @@ case "$1" in
             omv_config_add_key "${SERVICE_XPATH}" "enable" "0"
             omv_config_add_key "${SERVICE_XPATH}" "port" "8200"
             omv_config_add_key "${SERVICE_XPATH}" "listen-address" "127.0.0.1"
+			omv_config_add_key "${SERVICE_XPATH}" "ssl-certificate-file" ""
         fi
 
         omv-mkconf duplicati

@@ -17,6 +17,11 @@
 			"listen-address": {
 			    "type": "string",
 		        "required": true
+			},
+			"ssl-certificate-file":
+			{
+				"type": "string",
+				"default": ""
 			}
 		}
 	}

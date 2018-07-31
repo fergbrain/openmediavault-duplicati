@@ -93,6 +93,10 @@ Ext.define("OMV.module.admin.service.duplicati.Settings", {
                     ptype : 'fieldinfo',
                     text  : _('IP address to listen on. Use 0.0.0.0 for all host IPs.')
                 }]
+            },{
+            	xtype	   : 'textfield',
+				name	   : 'ssl-certificate-file',
+				fieldLabel : _('SSL Certificate Location')
             }]
         }];
     },

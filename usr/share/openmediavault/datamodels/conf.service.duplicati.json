@@ -20,6 +20,11 @@
 		"listen-address": {
 			"type": "string",
 			"default": "127.0.0.1"
+		},
+		"ssl-certificate-file":
+		{
+			"type": "string",
+			"default": ""
 		}
 	}
 }
